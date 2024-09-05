@@ -2,6 +2,7 @@ import {Button,ButtonProps} from '../components/ui/button';
 import type {Meta, StoryObj} from '@storybook/react';
 
 const meta: Meta<typeof Button> = {
+  title:"Button/Default",
     component: Button
 };
 
@@ -32,7 +33,7 @@ export const DestructiveButton = {
       children:"Custome Button",
       variant: "distructive",
       size: 'small',
-      border: 'dashed',
+      border: 'dotted ',
       hover: 'distructive'
     }
 }

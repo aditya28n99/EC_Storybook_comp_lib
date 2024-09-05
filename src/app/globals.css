@@ -8,6 +8,26 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+.separator-line::after {
+  content: '';
+  display: inline-block;
+  height: 60%;
+  width: 2px;
+  border: 2px solid gray; 
+  margin-left: 25px;
+  border-radius: 2px;
+}
+.blod-separator-line::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 5px;
+  border: 2px solid blue; 
+  margin-left: 25px;
+  border-radius: 2px;
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
