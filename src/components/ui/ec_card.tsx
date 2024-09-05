@@ -75,11 +75,11 @@ const EC_Card: React.FC<EC_CardProps> = ({
                     {/* Content container */}
                     <div className="flex-1 flex justify-between p-2">
                         <div>
-                            {title && <h2 className="text-xl font-dm-sans mb-2">{title}</h2>}
-                            {subtitle && <h2 className="text-xl font-dm-sans mb-2">{subtitle}</h2>}
+                            {title && <h2 className="text-3xl font-bold text-gray-600 font-dm-sans mb-2">{title}</h2>}
+                            {subtitle && <h2 className="text-3xl font-light text-gray-500 font-dm-sans mb-2">{subtitle}</h2>}
                             {projects && (
                                 <div className="flex items-center mb-2">
-                                    <h2 className="text-xl font-dm-sans mb-2 mr-2">Project By:</h2>
+                                    <h2 className="text-2xl font-light text-green-500 font-dm-sans mb-2 mr-2">Project By:</h2>
                                     <div className="flex space-x-2">
                                         {contributorImages?.map((image, i) => (
                                             <img
